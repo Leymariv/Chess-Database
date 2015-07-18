@@ -1,0 +1,40 @@
+JOURNAL DE BORD de L'EQUIPE:
+	
+	Romaric JODIN
+	Romain KOENIG
+	Valmon LEYMARIE
+	Thibaut RIHET
+
+Seance du 12/04/2013:
+
+-Prise en main du sujet
+-Début de l'analyse dynamique:
+       -Identification des acteurs
+       -Elaboration du diagramme des cas d'utilisation
+-Début de l'analyse statique:
+       -Inventorier les données
+       -Identifier les dépendances fonctionnelles
+
+Seance du 16/04/2013:
+
+-Création du dépôt git
+-Diagrammes d'états-transitions 
+	    -INSCRIPTION/PREMIER LANCEMENT DE L'APPLI
+	    -MATCHS DE QUALIFICATION      
+
+Seance du 30 avril 2013 :
+
+- finalisation du modèle entité relation pour les données
+- finalisation du schéma relationnel pour la BD
+
+- fini la conception  (architecture en couche avec patron fabrique)
+- mise en place de l'implémentation sous éclipse avec quelques classes.
+
+Seance du 3mai 2013:
+
+Partie JAVA:
+-Fin de l'interface Graphique des menus et de l'affichage d'un échiquier standard
+
+Partie BD:
+-Création de la base de données 
+-Premiers tests de la base (insertion/sélection de données basiques)

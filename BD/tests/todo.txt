@@ -1,0 +1,45 @@
+Je vais un peu lister les trucs à tester, cette liste n'est bien sur
+pas exhaustive...
+Dans la liste il y a des trucs à tester qui sont liés à l'application,
+pour connaître les requêtes qu'on va mettre dans le java (A) et d'autres qui sont simplement pour tester la BD (BD)
+
+
+- Insertion/Suppression/Sélection d'éléments dans chaque table (BD)
+   * Joueur
+   * Rencontre
+   * Tour
+   * Piece
+   * Couleur
+
+- Mise en place du jeu (A)
+   => Insertion des joueurs
+   => Insertions des rencontres
+   => Insertions des pièces pour la rencontre
+   => Insertion de la couleur liée à la pièce
+   => Insertion du tour 0 pour la rencontre
+   => Insertion Relation Joueur/Rencontre/Couleur
+
+- Requête correspondant aux fonctionnalités (A)
+   * Joueurs: 
+     + Jouer un coup
+   * Organisateur:
+     + Valider les inscriptions
+     + Changer les phases
+     + Désigner un gagnant
+   * Visiteur: 
+     + Regarder une partie
+     + S'inscrire
+
+- Vérifier qu'une modification n'altère pas le reste ou au contraire
+change ce qu'il faut changer (BD)
+   Exemple: Changer les coordonnées d'une pièce dans un tour (doit pas
+   modifier rencontre etc, mais modifier les X, Y, PREX, PREY de la
+   pièce correspondante) 
+
+- Vérifier les contraintes d'intégrité de la BD (BD)
+   * En écrire en lisant le texte/le tableau
+   * En écrire en lisant le sql
+
+- Vérifier les contraintes de multiplicité (BD)
+
+- Vérifier les transactions (genre quand elles sont coupés au milieu) (BD)
